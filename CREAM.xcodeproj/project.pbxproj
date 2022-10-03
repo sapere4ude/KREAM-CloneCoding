@@ -29,6 +29,9 @@
 		B7EC268728EAA6A6000658FA /* JustDroppedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC268628EAA6A6000658FA /* JustDroppedModel.swift */; };
 		B7EC268928EAA6B2000658FA /* JustDroppedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC268828EAA6B2000658FA /* JustDroppedCollectionViewCell.swift */; };
 		B7EC268B28EAA6BF000658FA /* JustDroppedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC268A28EAA6BF000658FA /* JustDroppedCell.swift */; };
+		B7EC268E28EAD553000658FA /* BrandFocusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC268D28EAD553000658FA /* BrandFocusCell.swift */; };
+		B7EC269028EAD564000658FA /* BrandFocusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC268F28EAD564000658FA /* BrandFocusCollectionViewCell.swift */; };
+		B7EC269228EAD56B000658FA /* BrandFocusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EC269128EAD56B000658FA /* BrandFocusModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		B7EC268628EAA6A6000658FA /* JustDroppedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustDroppedModel.swift; sourceTree = "<group>"; };
 		B7EC268828EAA6B2000658FA /* JustDroppedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustDroppedCollectionViewCell.swift; sourceTree = "<group>"; };
 		B7EC268A28EAA6BF000658FA /* JustDroppedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustDroppedCell.swift; sourceTree = "<group>"; };
+		B7EC268D28EAD553000658FA /* BrandFocusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandFocusCell.swift; sourceTree = "<group>"; };
+		B7EC268F28EAD564000658FA /* BrandFocusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandFocusCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7EC269128EAD56B000658FA /* BrandFocusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandFocusModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 		B724972C2827DB4700251F25 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B7EC268C28EAD53E000658FA /* BrandFocus */,
 				B7EC268528EAA689000658FA /* JustDropped */,
 				B7EC267E28E99026000658FA /* Trending */,
 				B7EC267D28E99019000658FA /* Advertisement */,
@@ -177,6 +184,16 @@
 				B7EC268628EAA6A6000658FA /* JustDroppedModel.swift */,
 			);
 			path = JustDropped;
+			sourceTree = "<group>";
+		};
+		B7EC268C28EAD53E000658FA /* BrandFocus */ = {
+			isa = PBXGroup;
+			children = (
+				B7EC268D28EAD553000658FA /* BrandFocusCell.swift */,
+				B7EC268F28EAD564000658FA /* BrandFocusCollectionViewCell.swift */,
+				B7EC269128EAD56B000658FA /* BrandFocusModel.swift */,
+			);
+			path = BrandFocus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,10 +273,13 @@
 				B724970A28226A5200251F25 /* ViewController.swift in Sources */,
 				B724970628226A5200251F25 /* AppDelegate.swift in Sources */,
 				B724971028226A5200251F25 /* CREAM.xcdatamodeld in Sources */,
+				B7EC269028EAD564000658FA /* BrandFocusCollectionViewCell.swift in Sources */,
+				B7EC268E28EAD553000658FA /* BrandFocusCell.swift in Sources */,
 				B724972428226FEF00251F25 /* ShopViewController.swift in Sources */,
 				B724972E2827DB9100251F25 /* AdvertisementCell.swift in Sources */,
 				B7EC267A28E8E030000658FA /* Extensions.swift in Sources */,
 				B7EC268728EAA6A6000658FA /* JustDroppedModel.swift in Sources */,
+				B7EC269228EAD56B000658FA /* BrandFocusModel.swift in Sources */,
 				B7EC268B28EAA6BF000658FA /* JustDroppedCell.swift in Sources */,
 				B7EC268228E99095000658FA /* TrendingCollectionViewCell.swift in Sources */,
 				B7EC268428E995AE000658FA /* TrendingModel.swift in Sources */,
