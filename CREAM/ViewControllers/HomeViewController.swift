@@ -24,6 +24,7 @@ class HomeViewController: UIViewController {
         let table = UITableView(frame: .zero, style: .grouped)
         table.register(AdvertisementCell.self, forCellReuseIdentifier: AdvertisementCell.identifier)
         table.register(TrendingCell.self, forCellReuseIdentifier: TrendingCell.identifier)
+        table.register(JustDroppedCell.self, forCellReuseIdentifier: JustDroppedCell.identifier)
         return table
     }()
     
@@ -63,6 +64,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             cell = tableView.dequeueReusableCell(withIdentifier: AdvertisementCell.identifier, for: indexPath) as! AdvertisementCell
         case Sections.Trending.rawValue:
             cell = tableView.dequeueReusableCell(withIdentifier: TrendingCell.identifier, for: indexPath) as! TrendingCell
+        case Sections.JustDropped.rawValue:
+            cell = tableView.dequeueReusableCell(withIdentifier: JustDroppedCell.identifier, for: indexPath) as! JustDroppedCell
 //        case Sections.Trending.rawValue, Sections.JustDropped.rawValue, Sections.BrandFocus.rawValue, Sections.Recommend.rawValue, Sections.MostPopular.rawValue:
 //            cell = tableView.dequeueReusableCell(withIdentifier: CollectionViewTableViewCell.identifier, for: indexPath) as! CollectionViewTableViewCell
         default:
@@ -78,7 +81,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         case Sections.Trending.rawValue:
             return 140
         case Sections.JustDropped.rawValue:
-            return 350
+            return 300
         case Sections.BrandFocus.rawValue:
             return 300
         case Sections.Recommend.rawValue:
