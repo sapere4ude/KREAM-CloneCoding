@@ -72,6 +72,7 @@ extension BrandFocusCell: UICollectionViewDataSource, UICollectionViewDelegate, 
         return cell
     }
     
+    // 결과적으로 collectionViewCell 의 크기를 결정하는 메서드
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = 60.0
         let height = 53.0

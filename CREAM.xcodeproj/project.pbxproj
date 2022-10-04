@@ -95,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				B7EC267828E8E025000658FA /* Resources */,
-				B7EC267528E8DCE6000658FA /* Views */,
 				B724972C2827DB4700251F25 /* Home */,
 				B72497292822702600251F25 /* TabBar */,
 				B724971E28226FD100251F25 /* ViewControllers */,
@@ -140,13 +139,6 @@
 				B7EC267D28E99019000658FA /* Advertisement */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		B7EC267528E8DCE6000658FA /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		B7EC267828E8E025000658FA /* Resources */ = {
