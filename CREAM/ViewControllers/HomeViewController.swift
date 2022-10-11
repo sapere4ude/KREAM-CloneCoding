@@ -18,6 +18,7 @@ enum Sections: Int {
 
 class HomeViewController: UIViewController {
     
+    // Most Popular 지우고 다른걸로 대체하기
     let sectionTitles: [String] = ["Advertise", "Trending", "Just Dropped\n발매상품", "Brand Focus", "Recommend", "Most Popular"]
     
     private let homeFeedTable: UITableView = {
